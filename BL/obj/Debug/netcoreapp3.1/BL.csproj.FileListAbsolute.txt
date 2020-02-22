@@ -1,0 +1,13 @@
+C:\Users\BlackCejasDev\Source\Repos\BaseApi\BL\bin\Debug\netcoreapp3.1\BL.deps.json
+C:\Users\BlackCejasDev\Source\Repos\BaseApi\BL\bin\Debug\netcoreapp3.1\BL.dll
+C:\Users\BlackCejasDev\Source\Repos\BaseApi\BL\bin\Debug\netcoreapp3.1\BL.pdb
+C:\Users\BlackCejasDev\Source\Repos\BaseApi\BL\bin\Debug\netcoreapp3.1\DA.dll
+C:\Users\BlackCejasDev\Source\Repos\BaseApi\BL\bin\Debug\netcoreapp3.1\ET.dll
+C:\Users\BlackCejasDev\Source\Repos\BaseApi\BL\bin\Debug\netcoreapp3.1\DA.pdb
+C:\Users\BlackCejasDev\Source\Repos\BaseApi\BL\bin\Debug\netcoreapp3.1\ET.pdb
+C:\Users\BlackCejasDev\Source\Repos\BaseApi\BL\obj\Debug\netcoreapp3.1\BL.csprojAssemblyReference.cache
+C:\Users\BlackCejasDev\Source\Repos\BaseApi\BL\obj\Debug\netcoreapp3.1\BL.AssemblyInfoInputs.cache
+C:\Users\BlackCejasDev\Source\Repos\BaseApi\BL\obj\Debug\netcoreapp3.1\BL.AssemblyInfo.cs
+C:\Users\BlackCejasDev\Source\Repos\BaseApi\BL\obj\Debug\netcoreapp3.1\BL.csproj.CopyComplete
+C:\Users\BlackCejasDev\Source\Repos\BaseApi\BL\obj\Debug\netcoreapp3.1\BL.dll
+C:\Users\BlackCejasDev\Source\Repos\BaseApi\BL\obj\Debug\netcoreapp3.1\BL.pdb
