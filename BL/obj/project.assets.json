@@ -4922,11 +4922,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BlackCejasDev\\Source\\Repos\\BaseApi\\BL\\BL.csproj",
+      "projectUniqueName": "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\back.siigohack\\BL\\BL.csproj",
       "projectName": "BL",
-      "projectPath": "C:\\Users\\BlackCejasDev\\Source\\Repos\\BaseApi\\BL\\BL.csproj",
+      "projectPath": "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\back.siigohack\\BL\\BL.csproj",
       "packagesPath": "C:\\Users\\BlackCejasDev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BlackCejasDev\\Source\\Repos\\BaseApi\\BL\\obj\\",
+      "outputPath": "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\back.siigohack\\BL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4945,11 +4945,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\BlackCejasDev\\Source\\Repos\\BaseApi\\DA\\DA.csproj": {
-              "projectPath": "C:\\Users\\BlackCejasDev\\Source\\Repos\\BaseApi\\DA\\DA.csproj"
+            "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\back.siigohack\\DA\\DA.csproj": {
+              "projectPath": "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\back.siigohack\\DA\\DA.csproj"
             },
-            "C:\\Users\\BlackCejasDev\\Source\\Repos\\BaseApi\\ET\\ET.csproj": {
-              "projectPath": "C:\\Users\\BlackCejasDev\\Source\\Repos\\BaseApi\\ET\\ET.csproj"
+            "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\back.siigohack\\ET\\ET.csproj": {
+              "projectPath": "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\back.siigohack\\ET\\ET.csproj"
             }
           }
         }

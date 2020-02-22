@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BlackCejasDev\\Source\\Repos\\BaseApi\\ET\\ET.csproj": {}
+    "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\back.siigohack\\ET\\ET.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BlackCejasDev\\Source\\Repos\\BaseApi\\ET\\ET.csproj": {
+    "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\back.siigohack\\ET\\ET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BlackCejasDev\\Source\\Repos\\BaseApi\\ET\\ET.csproj",
+        "projectUniqueName": "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\back.siigohack\\ET\\ET.csproj",
         "projectName": "ET",
-        "projectPath": "C:\\Users\\BlackCejasDev\\Source\\Repos\\BaseApi\\ET\\ET.csproj",
+        "projectPath": "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\back.siigohack\\ET\\ET.csproj",
         "packagesPath": "C:\\Users\\BlackCejasDev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BlackCejasDev\\Source\\Repos\\BaseApi\\ET\\obj\\",
+        "outputPath": "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\back.siigohack\\ET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
