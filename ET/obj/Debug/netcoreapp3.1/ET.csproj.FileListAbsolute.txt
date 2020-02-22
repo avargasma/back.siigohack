@@ -1,7 +1,0 @@
-C:\Users\BlackCejasDev\Source\Repos\BaseApi\ET\bin\Debug\netcoreapp3.1\ET.deps.json
-C:\Users\BlackCejasDev\Source\Repos\BaseApi\ET\bin\Debug\netcoreapp3.1\ET.dll
-C:\Users\BlackCejasDev\Source\Repos\BaseApi\ET\bin\Debug\netcoreapp3.1\ET.pdb
-C:\Users\BlackCejasDev\Source\Repos\BaseApi\ET\obj\Debug\netcoreapp3.1\ET.AssemblyInfoInputs.cache
-C:\Users\BlackCejasDev\Source\Repos\BaseApi\ET\obj\Debug\netcoreapp3.1\ET.AssemblyInfo.cs
-C:\Users\BlackCejasDev\Source\Repos\BaseApi\ET\obj\Debug\netcoreapp3.1\ET.dll
-C:\Users\BlackCejasDev\Source\Repos\BaseApi\ET\obj\Debug\netcoreapp3.1\ET.pdb
