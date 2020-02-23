@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using BL.ProductBL;
-using ET.ProductET;
+using BL.ProductoBL;
+using ET;
+using ET.ProductoET;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,17 +15,17 @@ namespace SiigoHack.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        private IProductBL _productProvider;
+        private IProductoBL _productProvider;
 
 
-        public ProductController(IProductBL pProductBL)
+        public ProductController(IProductoBL pProductBL)
         {
             _productProvider = pProductBL;
         }
 
         // GET: api/Login
         [HttpGet]
-        public async Task<ActionResult<List<Product>>> Get()
+        public async Task<ActionResult<RSV_Global<List<Producto>>>> Get()
         {            
             try
             {

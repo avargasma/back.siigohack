@@ -2396,6 +2396,15 @@
           "ref/netstandard1.2/System.Threading.Timer.dll": {}
         }
       },
+      "System.Web.Helpers.Crypto/3.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/net40/System.Web.Helpers.Crypto.dll": {}
+        },
+        "runtime": {
+          "lib/net40/System.Web.Helpers.Crypto.dll": {}
+        }
+      },
       "System.Xml.ReaderWriter/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2499,7 +2508,8 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "DA": "1.0.0",
-          "ET": "1.0.0"
+          "ET": "1.0.0",
+          "System.Web.Helpers.Crypto": "3.2.3"
         },
         "compile": {
           "bin/placeholder/BL.dll": {}
@@ -7892,6 +7902,19 @@
         "system.threading.timer.nuspec"
       ]
     },
+    "System.Web.Helpers.Crypto/3.2.3": {
+      "sha512": "Kpf+faYrakOcPGMkhyA+jG1D7cyOqIwS9B35cfh8Fc5jf2lVMhxRQpDWhwNGmgZw+PBAQ1TfZMGBRojD1Glp5Q==",
+      "type": "package",
+      "path": "system.web.helpers.crypto/3.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/System.Web.Helpers.Crypto.dll",
+        "lib/net40/System.Web.Helpers.Crypto.pdb",
+        "system.web.helpers.crypto.3.2.3.nupkg.sha512",
+        "system.web.helpers.crypto.nuspec"
+      ]
+    },
     "System.Xml.ReaderWriter/4.3.0": {
       "sha512": "GrprA+Z0RUXaR4N7/eW71j1rgMnEnEVlgii49GZyAjTH7uliMnrOU3HNFBr6fEDBCJCIdlVNq9hHbaDR621XBA==",
       "type": "package",
@@ -8164,23 +8187,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\BlackCejasDev\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Turquoise\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\back.siigohack\\SiigoHack\\SiigoHack.csproj",
+      "projectUniqueName": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack2\\SiigoHack\\SiigoHack.csproj",
       "projectName": "SiigoHack",
-      "projectPath": "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\back.siigohack\\SiigoHack\\SiigoHack.csproj",
-      "packagesPath": "C:\\Users\\BlackCejasDev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\back.siigohack\\SiigoHack\\obj\\",
+      "projectPath": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack2\\SiigoHack\\SiigoHack.csproj",
+      "packagesPath": "C:\\Users\\Turquoise\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack2\\SiigoHack\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\BlackCejasDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Turquoise\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8193,8 +8212,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\back.siigohack\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\back.siigohack\\BL\\BL.csproj"
+            "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack2\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack2\\BL\\BL.csproj"
             }
           }
         }
@@ -8238,5 +8257,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"System.Web.Helpers.Crypto 3.2.3\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v3.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "System.Web.Helpers.Crypto",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

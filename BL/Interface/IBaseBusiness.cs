@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ET;
+using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
@@ -10,11 +11,11 @@ namespace BL.Interface
     {
         #region Queries
 
-        public Task<List<T>> GetAll(int quantity = -1);
+        public Task<RSV_Global<List<T>>> GetAll(int quantity = -1);
 
-        public Task<List<T>> GetAllBy(Expression<Func<T, bool>> condition);
+        public Task<RSV_Global<List<T>>> GetAllBy(Expression<Func<T, bool>> condition);
 
-        public Task<T> GetById(int id);
+        public Task<RSV_Global<T>> GetById(long id);
 
         public Task<T> GetBy(Expression<Func<T, bool>> condition);
 
@@ -26,8 +27,8 @@ namespace BL.Interface
         /// </summary>
         /// <param name="entity">Entidad de tipo {T}</param>
         /// <returns>Retorna la entidad de tipo {T} generada</returns>
-        public Task<T> Update(T entity);
-        public Task<T> Insert(T entity);
+        public Task<RSV_Global<T>> Update(T entity);
+        public Task<RSV_Global<T>> Insert(T entity);
         #endregion
 
         #region Delete
@@ -37,7 +38,7 @@ namespace BL.Interface
         /// </summary>
         /// <param name="id">Identificador de la {T}</param>
         /// <returns>Retorna verdadero si se pudo eliminar, de lo contrario retorna falso></returns>
-        public Task<bool> Delete(int id, long idUsuMod);
+        public Task<RSV_Global<bool>> Delete(int id, long idUsuMod);
 
         #endregion
     }

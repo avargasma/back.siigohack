@@ -1,6 +1,6 @@
 ﻿using DA.Context;
 using DA.Helper;
-using ET.ProductET;
+using ET.ProductoET;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -12,11 +12,11 @@ using Vanidapp.Data.Helper;
 
 namespace DA.ProductDA
 {
-    public class ProductDA: BaseContext
+    public class ProductoDA: BaseContext
     {
-        public async Task<List<Product>> Product_G()
+        public async Task<List<Producto>> Product_G()
         {
-            List<Product> infoResultado = new List<Product>();
+            List<Producto> infoResultado = new List<Producto>();
 
             //List<SqlParameter> parameters = new List<SqlParameter>()
             //{
@@ -29,7 +29,7 @@ namespace DA.ProductDA
             await command.Connection.OpenAsync();
             using (var reader = await command.ExecuteReaderAsync())
             {
-                infoResultado = reader.Translate<Product>().ToList();
+                infoResultado = reader.Translate<Producto>().ToList();
             }
 
             await command.Connection.CloseAsync();

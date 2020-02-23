@@ -1,6 +1,8 @@
 using System.Text;
 using BL.Common;
-using BL.ProductBL;
+using BL.ProductoBL;
+using BL.TerceroBL;
+using BL.UsuarioBL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -31,8 +33,9 @@ namespace SiigoHack
             var appSettings = appSettingsSection.Get<AppSettings>();
          
             // configure DI for application services
-            services.AddScoped<IProductBL, ProductBL>();
-           
+            services.AddScoped<IProductoBL, ProductoBL>();
+            services.AddScoped<IUsuarioBL, UsuarioBL>();
+            services.AddScoped<ITerceroBL, TerceroBL>();                                 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
