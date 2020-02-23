@@ -20,3 +20,14 @@ C:\Users\Turquoise\Source\Repos\back.siigohack2\DA\obj\Debug\netcoreapp3.1\DA.As
 C:\Users\Turquoise\Source\Repos\back.siigohack2\DA\obj\Debug\netcoreapp3.1\DA.csproj.CopyComplete
 C:\Users\Turquoise\Source\Repos\back.siigohack2\DA\obj\Debug\netcoreapp3.1\DA.dll
 C:\Users\Turquoise\Source\Repos\back.siigohack2\DA\obj\Debug\netcoreapp3.1\DA.pdb
+C:\Users\Turquoise\Source\Repos\back.siigohack\DA\bin\Debug\netcoreapp3.1\DA.deps.json
+C:\Users\Turquoise\Source\Repos\back.siigohack\DA\bin\Debug\netcoreapp3.1\DA.dll
+C:\Users\Turquoise\Source\Repos\back.siigohack\DA\bin\Debug\netcoreapp3.1\DA.pdb
+C:\Users\Turquoise\Source\Repos\back.siigohack\DA\bin\Debug\netcoreapp3.1\ET.dll
+C:\Users\Turquoise\Source\Repos\back.siigohack\DA\bin\Debug\netcoreapp3.1\ET.pdb
+C:\Users\Turquoise\Source\Repos\back.siigohack\DA\obj\Debug\netcoreapp3.1\DA.csprojAssemblyReference.cache
+C:\Users\Turquoise\Source\Repos\back.siigohack\DA\obj\Debug\netcoreapp3.1\DA.AssemblyInfoInputs.cache
+C:\Users\Turquoise\Source\Repos\back.siigohack\DA\obj\Debug\netcoreapp3.1\DA.AssemblyInfo.cs
+C:\Users\Turquoise\Source\Repos\back.siigohack\DA\obj\Debug\netcoreapp3.1\DA.csproj.CopyComplete
+C:\Users\Turquoise\Source\Repos\back.siigohack\DA\obj\Debug\netcoreapp3.1\DA.dll
+C:\Users\Turquoise\Source\Repos\back.siigohack\DA\obj\Debug\netcoreapp3.1\DA.pdb

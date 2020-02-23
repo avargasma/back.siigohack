@@ -4902,11 +4902,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack2\\DA\\DA.csproj",
+      "projectUniqueName": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack\\DA\\DA.csproj",
       "projectName": "DA",
-      "projectPath": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack2\\DA\\DA.csproj",
+      "projectPath": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack\\DA\\DA.csproj",
       "packagesPath": "C:\\Users\\Turquoise\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack2\\DA\\obj\\",
+      "outputPath": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack\\DA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Turquoise\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4922,8 +4922,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack2\\ET\\ET.csproj": {
-              "projectPath": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack2\\ET\\ET.csproj"
+            "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack\\ET\\ET.csproj": {
+              "projectPath": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack\\ET\\ET.csproj"
             }
           }
         }

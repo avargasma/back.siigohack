@@ -14,3 +14,11 @@ C:\Users\Turquoise\Source\Repos\back.siigohack2\ET\obj\Debug\netcoreapp3.1\ET.As
 C:\Users\Turquoise\Source\Repos\back.siigohack2\ET\obj\Debug\netcoreapp3.1\ET.AssemblyInfo.cs
 C:\Users\Turquoise\Source\Repos\back.siigohack2\ET\obj\Debug\netcoreapp3.1\ET.dll
 C:\Users\Turquoise\Source\Repos\back.siigohack2\ET\obj\Debug\netcoreapp3.1\ET.pdb
+C:\Users\Turquoise\Source\Repos\back.siigohack\ET\bin\Debug\netcoreapp3.1\ET.deps.json
+C:\Users\Turquoise\Source\Repos\back.siigohack\ET\bin\Debug\netcoreapp3.1\ET.dll
+C:\Users\Turquoise\Source\Repos\back.siigohack\ET\bin\Debug\netcoreapp3.1\ET.pdb
+C:\Users\Turquoise\Source\Repos\back.siigohack\ET\obj\Debug\netcoreapp3.1\ET.csprojAssemblyReference.cache
+C:\Users\Turquoise\Source\Repos\back.siigohack\ET\obj\Debug\netcoreapp3.1\ET.AssemblyInfoInputs.cache
+C:\Users\Turquoise\Source\Repos\back.siigohack\ET\obj\Debug\netcoreapp3.1\ET.AssemblyInfo.cs
+C:\Users\Turquoise\Source\Repos\back.siigohack\ET\obj\Debug\netcoreapp3.1\ET.dll
+C:\Users\Turquoise\Source\Repos\back.siigohack\ET\obj\Debug\netcoreapp3.1\ET.pdb

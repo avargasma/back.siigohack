@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack2\\ET\\ET.csproj": {}
+    "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack\\ET\\ET.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack2\\ET\\ET.csproj": {
+    "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack\\ET\\ET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack2\\ET\\ET.csproj",
+        "projectUniqueName": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack\\ET\\ET.csproj",
         "projectName": "ET",
-        "projectPath": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack2\\ET\\ET.csproj",
+        "projectPath": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack\\ET\\ET.csproj",
         "packagesPath": "C:\\Users\\Turquoise\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack2\\ET\\obj\\",
+        "outputPath": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack\\ET\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Turquoise\\AppData\\Roaming\\NuGet\\NuGet.Config",
