@@ -1,5 +1,6 @@
 using System.Text;
 using BL.Common;
+using BL.NotificacionBL;
 using BL.ProductoBL;
 using BL.TerceroBL;
 using BL.UsuarioBL;
@@ -36,6 +37,8 @@ namespace SiigoHack
             services.AddScoped<IProductoBL, ProductoBL>();
             services.AddScoped<IUsuarioBL, UsuarioBL>();
             services.AddScoped<ITerceroBL, TerceroBL>();
+            services.AddScoped<INotificacionBL, NotificacionBL>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
