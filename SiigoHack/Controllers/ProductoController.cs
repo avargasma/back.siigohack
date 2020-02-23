@@ -42,6 +42,25 @@ namespace SiigoHack.Controllers
             return Ok(infoResultado);
         }
 
+
+        [HttpGet("GetSaldoGlobal")]
+        public async Task<ActionResult> GetSaldoGlobal(int pID)
+        {
+            RSV_Global<Producto> infoResultado = new RSV_Global<Producto>();
+
+            try
+            {
+                infoResultado = await _productBusiness.GetSaldoGlobal(pID);
+            }
+            catch (Exception ex)
+            {
+                infoResultado.Error = new Error(ex, $"Se presento un error en el metodo {((MethodInfo)MethodBase.GetCurrentMethod()).Name.ToString()}. {ex.Message}");
+                infoResultado.Exitoso = false;
+            }
+
+            return Ok(infoResultado);
+        }
+
         // GET: api/Login
         [HttpGet]
         public async Task<ActionResult<RSV_Global<List<Producto>>>> Get()

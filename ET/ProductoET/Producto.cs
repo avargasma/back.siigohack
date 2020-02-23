@@ -20,5 +20,6 @@ namespace ET.ProductoET
         public bool PRActivo { get; set; }
         public string PRCodigoBarras { get; set; }
         public int PRSaldo { get; set; }
+        public int? PRSaldoGlobal { get; set; }
     }
 }
