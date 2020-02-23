@@ -13,14 +13,33 @@ namespace SiigoHack.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductController : ControllerBase
+    public class ProductoController : ControllerBase
     {
-        private IProductoBL _productProvider;
+        private IProductoBL _productBusiness;
 
 
-        public ProductController(IProductoBL pProductBL)
+        public ProductoController(IProductoBL pProductBL)
         {
-            _productProvider = pProductBL;
+            _productBusiness = pProductBL;
+        }
+
+
+        [HttpGet("Autocomplete")]
+        public async Task<ActionResult> Autocomplete(string pValorBusqueda)
+        {
+            RSV_Global<List<Producto>> infoResultado = new RSV_Global<List<Producto>>();
+
+            try
+            {
+                infoResultado = await _productBusiness.Autocomplete(pValorBusqueda);
+            }
+            catch (Exception ex)
+            {
+                infoResultado.Error = new Error(ex, $"Se presento un error en el metodo {((MethodInfo)MethodBase.GetCurrentMethod()).Name.ToString()}. {ex.Message}");
+                infoResultado.Exitoso = false;
+            }
+
+            return Ok(infoResultado);
         }
 
         // GET: api/Login
@@ -29,7 +48,7 @@ namespace SiigoHack.Controllers
         {            
             try
             {
-                return await _productProvider.GetAll();
+                return await _productBusiness.GetAll();
             }
             catch (Exception ex)
             {

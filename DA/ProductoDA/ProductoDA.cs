@@ -37,5 +37,33 @@ namespace DA.ProductDA
             return infoResultado;
         }
 
+        public async Task<List<Producto>> ProductoAutocomplet_G(string pValorBusqueda)
+        {
+            List<Producto> infoResultado = new List<Producto>();
+
+            List<SqlParameter> parameters = new List<SqlParameter>()
+            {
+                ParameterHelper.NewParameter("@pValorBusqueda", SqlDbType.VarChar, 200, ParameterDirection.Input, pValorBusqueda)
+            };
+
+            var command = this.Database.GetDbConnection().CreateCommand();
+            command.CommandText = "[GENERAL].[ProductoAutocomplete_G]";
+            command.CommandType = CommandType.StoredProcedure;
+            command.Parameters.AddRange(parameters.ToArray());
+            await command.Connection.OpenAsync();
+            using (var reader = await command.ExecuteReaderAsync())
+            {
+                infoResultado = reader.Translate<Producto>().ToList();
+            }
+
+            await command.Connection.CloseAsync();
+
+            return infoResultado;
+        }
+
+
+
+        
+
     }
 }
