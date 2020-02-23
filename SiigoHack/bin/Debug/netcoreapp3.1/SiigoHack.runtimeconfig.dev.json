@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Turquoise\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Turquoise\\.nuget\\packages"
+    ]
+  }
+}
