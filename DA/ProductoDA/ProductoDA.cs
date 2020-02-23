@@ -62,8 +62,27 @@ namespace DA.ProductDA
         }
 
 
+        public async Task<Producto> ProductoById(long pIdProd)
+        {
+            Producto infoResultado;
 
-        
+            List<SqlParameter> parameters = new List<SqlParameter>()
+            {
+                ParameterHelper.NewParameter("@pPRId",SqlDbType.BigInt,20,ParameterDirection.Input,pIdProd)
+            };
+            var command = this.Database.GetDbConnection().CreateCommand();
+            command.CommandText = "[Producto].[ProductoById_G]";
+            command.CommandType = CommandType.StoredProcedure;
+            command.Parameters.AddRange(parameters.ToArray());
+            await command.Connection.OpenAsync();
+            using (var reader = await command.ExecuteReaderAsync())
+            {
+                infoResultado = reader.Translate<Producto>().ToList().FirstOrDefault();
+            }
+            await command.Connection.CloseAsync();
+            return infoResultado;
+        }
+
 
     }
 }

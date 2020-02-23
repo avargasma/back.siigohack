@@ -4897,19 +4897,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Turquoise\\.nuget\\packages\\": {}
+    "C:\\Users\\BlackCejasDev\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack\\DA\\DA.csproj",
+      "projectUniqueName": "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\New folder\\back.siigohack\\DA\\DA.csproj",
       "projectName": "DA",
-      "projectPath": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack\\DA\\DA.csproj",
-      "packagesPath": "C:\\Users\\Turquoise\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack\\DA\\obj\\",
+      "projectPath": "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\New folder\\back.siigohack\\DA\\DA.csproj",
+      "packagesPath": "C:\\Users\\BlackCejasDev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\New folder\\back.siigohack\\DA\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Turquoise\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BlackCejasDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4922,8 +4926,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack\\ET\\ET.csproj": {
-              "projectPath": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack\\ET\\ET.csproj"
+            "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\New folder\\back.siigohack\\ET\\ET.csproj": {
+              "projectPath": "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\New folder\\back.siigohack\\ET\\ET.csproj"
             }
           }
         }

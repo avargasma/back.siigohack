@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack\\ET\\ET.csproj": {}
+    "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\New folder\\back.siigohack\\ET\\ET.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack\\ET\\ET.csproj": {
+    "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\New folder\\back.siigohack\\ET\\ET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack\\ET\\ET.csproj",
+        "projectUniqueName": "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\New folder\\back.siigohack\\ET\\ET.csproj",
         "projectName": "ET",
-        "projectPath": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack\\ET\\ET.csproj",
-        "packagesPath": "C:\\Users\\Turquoise\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Turquoise\\Source\\Repos\\back.siigohack\\ET\\obj\\",
+        "projectPath": "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\New folder\\back.siigohack\\ET\\ET.csproj",
+        "packagesPath": "C:\\Users\\BlackCejasDev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BlackCejasDev\\Source\\Repos\\SiigoHack\\New folder\\back.siigohack\\ET\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Turquoise\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BlackCejasDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

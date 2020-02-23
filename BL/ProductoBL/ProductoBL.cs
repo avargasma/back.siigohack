@@ -61,9 +61,23 @@ namespace BL.ProductoBL
             throw new NotImplementedException();
         }
 
-        public Task<RSV_Global<Producto>> GetById(long id)
+        public async Task<RSV_Global<Producto>> GetById(long id)
         {
-            throw new NotImplementedException();
+            RSV_Global<Producto> infoResultado = new RSV_Global<Producto>();
+
+            try
+            {
+                //Envio la contraseña a generar
+                infoResultado.Datos = await _productoDA.ProductoById(id);
+                infoResultado.Exitoso = true;
+            }
+            catch (Exception ex)
+            {
+                infoResultado.Exitoso = false;
+                infoResultado.Error = new Error(ex, $"Se presento un error en el método {((MethodInfo)MethodBase.GetCurrentMethod()).Name.ToString()}. {ex.Message}");
+            }
+
+            return infoResultado;
         }
 
         public Task<RSV_Global<Producto>> Insert(Producto entity)
