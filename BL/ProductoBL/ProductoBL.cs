@@ -80,6 +80,25 @@ namespace BL.ProductoBL
             return infoResultado;
         }
 
+        public async Task<RSV_Global<Producto>> GetSaldoGlobal(int pID)
+        {
+            RSV_Global<Producto> infoResultado = new RSV_Global<Producto>();
+
+            try
+            {
+                //Envio la contraseña a generar
+                infoResultado.Datos = await _productoDA.ProductoSaldoGlobal_G(pID);
+                infoResultado.Exitoso = true;
+            }
+            catch (Exception ex)
+            {
+                infoResultado.Exitoso = false;
+                infoResultado.Error = new Error(ex, $"Se presento un error en el método {((MethodInfo)MethodBase.GetCurrentMethod()).Name.ToString()}. {ex.Message}");
+            }
+
+            return infoResultado;            
+        }
+
         public Task<RSV_Global<Producto>> Insert(Producto entity)
         {
             throw new NotImplementedException();

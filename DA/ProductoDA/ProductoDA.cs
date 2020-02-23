@@ -83,6 +83,30 @@ namespace DA.ProductDA
             return infoResultado;
         }
 
+        public async Task<Producto> ProductoSaldoGlobal_G(int pID)
+        {
+            Producto infoResultado = new Producto();
+
+            List<SqlParameter> parameters = new List<SqlParameter>()
+            {
+                ParameterHelper.NewParameter("@pID", SqlDbType.Int, 8, ParameterDirection.Input, pID)
+            };
+
+            var command = this.Database.GetDbConnection().CreateCommand();
+            command.CommandText = "[GENERAL].[ProductoSaldoGlobal_G]";
+            command.CommandType = CommandType.StoredProcedure;
+            command.Parameters.AddRange(parameters.ToArray());
+            await command.Connection.OpenAsync();
+            using (var reader = await command.ExecuteReaderAsync())
+            {
+                infoResultado = reader.Translate<Producto>().ToList().FirstOrDefault();
+            }
+
+            await command.Connection.CloseAsync();
+
+            return infoResultado;
+        }
+
 
     }
 }
